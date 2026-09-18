@@ -1,0 +1,39 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "harry19.quickplay",
+	"name": "Quick Play",
+	"version": "v1.0.0",
+	"developer": "Harry19",
+	"description": "Puts a Quick Play bar under the main menu's Play button that jumps straight back into your last played level. Its chevron opens a Recent Levels browser that fills in automatically as you play (tap + on a level screen to add one by hand, X to remove one). The optional 'Keep far levels saved' setting pulls a far-back download back to the top of the saved list when you play it.",
+	"dependencies": {
+		"geode.node-ids": ">=v1.10.0"
+	},
+	"settings": {
+		"enabled": {
+			"name": "Enable Quick Play",
+			"description": "Show the Quick Play button on the main menu and the add button on level screens. OFF restores the original game exactly.",
+			"type": "bool",
+			"default": true
+		},
+		"max-recents": {
+			"name": "Max recent levels",
+			"description": "How many recently played levels the Recent Levels list keeps at most.",
+			"type": "int",
+			"default": 12,
+			"min": 1,
+			"max": 50
+		},
+		"keep-saved": {
+			"name": "Keep far levels saved",
+			"description": "When ON, a downloaded level you play from beyond the front-page saved list is pulled back into the saved list so it stays saved after you exit the level. Prevents 'Load Failed!' on far-back downloads.",
+			"type": "bool",
+			"default": true
+		}
+	}
+}
