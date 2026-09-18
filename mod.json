@@ -8,7 +8,7 @@
 	},
 	"id": "harry19.quickplay",
 	"name": "Quick Play",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"developer": "Harry19",
 	"description": "Puts a Quick Play bar under the main menu's Play button that jumps straight back into your last played level. Its chevron opens a Recent Levels browser that fills in automatically as you play (tap + on a level screen to add one by hand, X to remove one). The optional 'Keep far levels saved' setting pulls a far-back download back to the top of the saved list when you play it.",
 	"dependencies": {
